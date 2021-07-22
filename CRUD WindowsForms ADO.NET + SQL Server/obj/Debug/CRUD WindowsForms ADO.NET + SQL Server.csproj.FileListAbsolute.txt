@@ -1,0 +1,12 @@
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\bin\Debug\CRUD WindowsForms ADO.NET + SQL Server.exe.config
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\bin\Debug\CRUD WindowsForms ADO.NET + SQL Server.exe
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\bin\Debug\CRUD WindowsForms ADO.NET + SQL Server.pdb
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\obj\Debug\CRUD WindowsForms ADO.NET + SQL Server.csproj.AssemblyReference.cache
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\obj\Debug\CRUD_WindowsForms_ADO.NET___SQL_Server.Form1.resources
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\obj\Debug\CRUD_WindowsForms_ADO.NET___SQL_Server.Properties.Resources.resources
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\obj\Debug\CRUD WindowsForms ADO.NET + SQL Server.csproj.GenerateResource.cache
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\obj\Debug\CRUD WindowsForms ADO.NET + SQL Server.csproj.CoreCompileInputs.cache
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\obj\Debug\CRUD WindowsForms ADO.NET + SQL Server.exe
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\obj\Debug\CRUD WindowsForms ADO.NET + SQL Server.pdb
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\obj\Debug\CRUD_WindowsForms_ADO.NET___SQL_Server.AgregarContacto.resources
+C:\Users\Agustin\source\repos\CRUD WindowsForms ADO.NET + SQL Server\obj\Debug\CRUD_WindowsForms_ADO.NET___SQL_Server.EditarContacto.resources
