@@ -1,0 +1,15 @@
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\bin\Debug\ProbandoWPF.exe.config
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\bin\Debug\ProbandoWPF.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\bin\Debug\ProbandoWPF.pdb
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\ProbandoWPF.csproj.AssemblyReference.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\App.g.cs
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\ProbandoWPF_MarkupCompile.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\ProbandoWPF_MarkupCompile.lref
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\MainWindow.baml
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\ProbandoWPF.g.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\ProbandoWPF.Properties.Resources.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\ProbandoWPF.csproj.GenerateResource.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\ProbandoWPF.csproj.CoreCompileInputs.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\ProbandoWPF.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\ProbandoWPF\obj\Debug\ProbandoWPF.pdb
