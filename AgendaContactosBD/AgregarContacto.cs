@@ -16,5 +16,22 @@ namespace AgendaContactosBD
         {
             InitializeComponent();
         }
+
+        private void button_agregar_Click(object sender, EventArgs e)
+        {
+            ConexionBD c = new ConexionBD();
+
+            try
+            {
+                c.nuevoContacto(textBox_nombre.Text, textBox_apellido.Text, textBox_telefono.Text, textBox_mail.Text);
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error al guardar: " + ex.Message);
+            }
+        }
+
     }
 }

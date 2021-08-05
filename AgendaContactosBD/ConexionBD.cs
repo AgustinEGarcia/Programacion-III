@@ -14,7 +14,7 @@ namespace AgendaContactosBD
 
         public List<Contacto> getContactos()
         {
-            string query = "SELECT id, nombre, apellido, telefono, mail from Contactos";
+            string query = "SELECT id, nombre, apellido, telefono, mail from Contacto";
 
             using (SqlConnection conexion = new SqlConnection(string_de_conexion))
             {
@@ -53,7 +53,7 @@ namespace AgendaContactosBD
 
         public Contacto getContacto(int id)
         {
-            string query = "SELECT id, nombre, apellido, telefono, mail from Contactos" +
+            string query = "SELECT id, nombre, apellido, telefono, mail from Contacto" +
                 " where id=@id";
 
             using (SqlConnection conexion = new SqlConnection(string_de_conexion))
@@ -88,7 +88,7 @@ namespace AgendaContactosBD
 
         public void nuevoContacto(string nombre, string apellido, string telefono, string mail)
         {
-            string query = "INSERT into Contactos (nombre, apellido, telefono, mail) values" +
+            string query = "INSERT into Contacto (nombre, apellido, telefono, mail) values" +
                 "(@nombre, @apellido, @telefono, @mail)";
 
             using (SqlConnection conexion = new SqlConnection(string_de_conexion))
@@ -119,7 +119,7 @@ namespace AgendaContactosBD
 
         public void editarContacto(string nombre, string apellido, string telefono, string mail, int id)
         {
-            string query = "UPDATE Contactos set nombre=@nombre, apellido=@apellido telefono=@telefono, mail=@mail" +
+            string query = "UPDATE Contacto set nombre=@nombre, apellido=@apellido, telefono=@telefono, mail=@mail" +
                 " WHERE id=@id";
 
             using (SqlConnection conexion = new SqlConnection(string_de_conexion))
@@ -151,7 +151,7 @@ namespace AgendaContactosBD
 
         public void eliminarContacto(int id)
         {
-            string query = "DELETE from Contactos WHERE id=@id";
+            string query = "DELETE from Contacto WHERE id=@id";
 
             using (SqlConnection conexion = new SqlConnection(string_de_conexion))
             {

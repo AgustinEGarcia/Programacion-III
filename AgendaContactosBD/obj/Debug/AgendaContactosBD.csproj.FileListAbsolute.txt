@@ -1,0 +1,12 @@
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\bin\Debug\AgendaContactosBD.exe.config
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\bin\Debug\AgendaContactosBD.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\bin\Debug\AgendaContactosBD.pdb
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\obj\Debug\AgendaContactosBD.csproj.AssemblyReference.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\obj\Debug\AgendaContactosBD.AgregarContacto.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\obj\Debug\AgendaContactosBD.EditarContacto.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\obj\Debug\AgendaContactosBD.Form_principal.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\obj\Debug\AgendaContactosBD.Properties.Resources.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\obj\Debug\AgendaContactosBD.csproj.GenerateResource.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\obj\Debug\AgendaContactosBD.csproj.CoreCompileInputs.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\obj\Debug\AgendaContactosBD.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosBD\obj\Debug\AgendaContactosBD.pdb

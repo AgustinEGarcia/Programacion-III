@@ -36,20 +36,23 @@ namespace AgendaContactosBD
             this.label_telefono = new System.Windows.Forms.Label();
             this.textBox_nombre = new System.Windows.Forms.TextBox();
             this.label_nombre = new System.Windows.Forms.Label();
+            this.textBox_apellido = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button_agregar
             // 
-            this.button_agregar.Location = new System.Drawing.Point(90, 115);
+            this.button_agregar.Location = new System.Drawing.Point(109, 139);
             this.button_agregar.Name = "button_agregar";
             this.button_agregar.Size = new System.Drawing.Size(75, 23);
             this.button_agregar.TabIndex = 13;
             this.button_agregar.Text = "Agregar";
             this.button_agregar.UseVisualStyleBackColor = true;
+            this.button_agregar.Click += new System.EventHandler(this.button_agregar_Click);
             // 
             // textBox_mail
             // 
-            this.textBox_mail.Location = new System.Drawing.Point(65, 78);
+            this.textBox_mail.Location = new System.Drawing.Point(65, 101);
             this.textBox_mail.Name = "textBox_mail";
             this.textBox_mail.Size = new System.Drawing.Size(183, 20);
             this.textBox_mail.TabIndex = 12;
@@ -57,7 +60,7 @@ namespace AgendaContactosBD
             // label_mail
             // 
             this.label_mail.AutoSize = true;
-            this.label_mail.Location = new System.Drawing.Point(24, 81);
+            this.label_mail.Location = new System.Drawing.Point(24, 104);
             this.label_mail.Name = "label_mail";
             this.label_mail.Size = new System.Drawing.Size(26, 13);
             this.label_mail.TabIndex = 11;
@@ -65,7 +68,7 @@ namespace AgendaContactosBD
             // 
             // textBox_telefono
             // 
-            this.textBox_telefono.Location = new System.Drawing.Point(65, 52);
+            this.textBox_telefono.Location = new System.Drawing.Point(65, 75);
             this.textBox_telefono.Name = "textBox_telefono";
             this.textBox_telefono.Size = new System.Drawing.Size(183, 20);
             this.textBox_telefono.TabIndex = 10;
@@ -73,7 +76,7 @@ namespace AgendaContactosBD
             // label_telefono
             // 
             this.label_telefono.AutoSize = true;
-            this.label_telefono.Location = new System.Drawing.Point(15, 55);
+            this.label_telefono.Location = new System.Drawing.Point(15, 78);
             this.label_telefono.Name = "label_telefono";
             this.label_telefono.Size = new System.Drawing.Size(49, 13);
             this.label_telefono.TabIndex = 9;
@@ -95,11 +98,29 @@ namespace AgendaContactosBD
             this.label_nombre.TabIndex = 7;
             this.label_nombre.Text = "Nombre";
             // 
+            // textBox_apellido
+            // 
+            this.textBox_apellido.Location = new System.Drawing.Point(65, 51);
+            this.textBox_apellido.Name = "textBox_apellido";
+            this.textBox_apellido.Size = new System.Drawing.Size(183, 20);
+            this.textBox_apellido.TabIndex = 15;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Apellido";
+            // 
             // AgregarContacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(270, 174);
+            this.Controls.Add(this.textBox_apellido);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button_agregar);
             this.Controls.Add(this.textBox_mail);
             this.Controls.Add(this.label_mail);
@@ -108,6 +129,7 @@ namespace AgendaContactosBD
             this.Controls.Add(this.textBox_nombre);
             this.Controls.Add(this.label_nombre);
             this.Name = "AgregarContacto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarContacto";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -123,5 +145,7 @@ namespace AgendaContactosBD
         private System.Windows.Forms.Label label_telefono;
         private System.Windows.Forms.TextBox textBox_nombre;
         private System.Windows.Forms.Label label_nombre;
+        private System.Windows.Forms.TextBox textBox_apellido;
+        private System.Windows.Forms.Label label1;
     }
 }

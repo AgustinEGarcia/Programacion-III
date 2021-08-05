@@ -45,6 +45,7 @@ namespace AgendaContactosBD
             this.button_eliminar.TabIndex = 11;
             this.button_eliminar.Text = "Eliminar contacto";
             this.button_eliminar.UseVisualStyleBackColor = true;
+            this.button_eliminar.Click += new System.EventHandler(this.button_eliminar_Click);
             // 
             // button_editar
             // 
@@ -54,6 +55,7 @@ namespace AgendaContactosBD
             this.button_editar.TabIndex = 10;
             this.button_editar.Text = "Editar contacto";
             this.button_editar.UseVisualStyleBackColor = true;
+            this.button_editar.Click += new System.EventHandler(this.button_editar_Click);
             // 
             // button_agregar
             // 
@@ -63,6 +65,7 @@ namespace AgendaContactosBD
             this.button_agregar.TabIndex = 9;
             this.button_agregar.Text = "Añadir contacto";
             this.button_agregar.UseVisualStyleBackColor = true;
+            this.button_agregar.Click += new System.EventHandler(this.button_agregar_Click);
             // 
             // button_actualizar
             // 
@@ -72,6 +75,7 @@ namespace AgendaContactosBD
             this.button_actualizar.TabIndex = 8;
             this.button_actualizar.Text = "Actualizar";
             this.button_actualizar.UseVisualStyleBackColor = true;
+            this.button_actualizar.Click += new System.EventHandler(this.button_actualizar_Click);
             // 
             // dataGridView1
             // 
@@ -94,7 +98,9 @@ namespace AgendaContactosBD
             this.Controls.Add(this.button_actualizar);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form_principal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agenda de contactos";
+            this.Load += new System.EventHandler(this.Form_principal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

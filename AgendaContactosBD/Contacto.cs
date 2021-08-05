@@ -16,8 +16,9 @@ namespace AgendaContactosBD
 
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
+        public string Apellido { get => apellido; set => apellido = value; }
         public string Telefono { get => telefono; set => telefono = value; }
         public string Mail { get => mail; set => mail = value; }
-        public string Apellido { get => apellido; set => apellido = value; }
+        
     }
 }
