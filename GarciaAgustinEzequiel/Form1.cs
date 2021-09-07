@@ -176,26 +176,30 @@ namespace GarciaAgustinEzequiel
 
         private void cargarArchivo()
         {
-            FileInfo f = new FileInfo(Application.StartupPath);
-            FileStream fs = f.Open(FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            StreamReader sr = new StreamReader(fs);
-            string tope = null;
-            int i = 0;
 
-            while ((tope = sr.ReadLine()) != null)
+            if (File.Exists(ruta))
             {
-                arregloLista[i] = tope;
-                i++;
+                StreamReader sr = File.OpenText(ruta);
+
+                lista.Add(sr.ReadToEnd());
+
+                sr.Close();
+
+
             }
 
-            lista = arregloLista.ToList();
+            textBox_entrada.Text = "";
+            textBox_caracEntrada.Text = "";
 
-            textBox_entrada.Text = lista.ToString();
+            foreach (string elem in lista)
+            {
+                textBox_entrada.AppendText(elem);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //cargarArchivo();
+            cargarArchivo();
         }
 
         private void guardarListaOriginalToolStripMenuItem_Click(object sender, EventArgs e)
