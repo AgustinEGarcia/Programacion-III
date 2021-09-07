@@ -1,0 +1,11 @@
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\obj\Debug\AgendaContactosConArchivos.csproj.AssemblyReference.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\obj\Debug\AgendaContactosConArchivos.AgregarContacto.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\obj\Debug\AgendaContactosConArchivos.Form_Principal.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\obj\Debug\AgendaContactosConArchivos.Properties.Resources.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\obj\Debug\AgendaContactosConArchivos.csproj.GenerateResource.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\obj\Debug\AgendaContactosConArchivos.csproj.CoreCompileInputs.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\bin\Debug\AgendaContactosConArchivos.exe.config
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\bin\Debug\AgendaContactosConArchivos.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\bin\Debug\AgendaContactosConArchivos.pdb
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\obj\Debug\AgendaContactosConArchivos.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaContactosConArchivos\obj\Debug\AgendaContactosConArchivos.pdb
