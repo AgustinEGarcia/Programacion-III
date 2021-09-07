@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AgendaContactosConArchivos
 {
-    class Contacto
+    public class Contacto
     {
         private string nombre;
         private string apellido;

@@ -13,10 +13,9 @@ namespace AgendaContactosConArchivos
 {
     public partial class Form_Principal : Form
     {
-        List<Contacto> lista_contactos = new List<Contacto>();
-        string ruta = @"C:\Users\Agustin\Desktop\AgendaContactos.txt";
+        public List<Contacto> lista_contactos = new List<Contacto>();
 
-        internal List<Contacto> Lista_contactos { get => lista_contactos; set => lista_contactos = value; }
+        string ruta = @"C:\Users\Agustin\Desktop\AgendaContactos.txt";
 
         public Form_Principal()
         {
@@ -36,21 +35,26 @@ namespace AgendaContactosConArchivos
 
                 sr.Close();
 
-                dataGridView1.DataSource = Lista_contactos;
+                dataGridView1.DataSource = lista_contactos;
 
             }
 
+            //lista_contactos.Add(new Contacto("Agustin", "Garcia", "354"));
+            //lista_contactos.Add(new Contacto("jere", "alvarez", "131"));
+
+            dataGridView1.DataSource = lista_contactos;
 
         }
 
-        private void actualizar()
+        public void actualizar()
         {
-            dataGridView1.DataSource = Lista_contactos;
+            dataGridView1.DataSource = lista_contactos;
         }
 
         private void Form_Principal_Load(object sender, EventArgs e)
         {
-            //cargar_contactos();
+            cargar_contactos();
+            actualizar();
         }
 
         private void button_actualizar_Click(object sender, EventArgs e)
@@ -62,11 +66,10 @@ namespace AgendaContactosConArchivos
         {
             
 
-            AgregarContacto ag = new AgregarContacto();
+            AgregarContacto ag = new AgregarContacto(this);
 
             ag.ShowDialog();
 
-            this.Close();
 
         }
     }
