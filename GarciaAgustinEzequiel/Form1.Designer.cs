@@ -45,6 +45,8 @@ namespace GarciaAgustinEzequiel
             this.button_transformar = new System.Windows.Forms.Button();
             this.button_separar = new System.Windows.Forms.Button();
             this.textBox_salida = new System.Windows.Forms.TextBox();
+            this.guardarListaOriginalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardarListaModificadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,10 +72,12 @@ namespace GarciaAgustinEzequiel
             // 
             // guardarToolStripMenuItem
             // 
+            this.guardarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.guardarListaOriginalToolStripMenuItem,
+            this.guardarListaModificadaToolStripMenuItem});
             this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
             this.guardarToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
             this.guardarToolStripMenuItem.Text = "Guardar en archivo";
-            this.guardarToolStripMenuItem.Click += new System.EventHandler(this.guardarToolStripMenuItem_Click);
             // 
             // ordenarListaToolStripMenuItem
             // 
@@ -184,6 +188,20 @@ namespace GarciaAgustinEzequiel
             this.textBox_salida.Size = new System.Drawing.Size(485, 165);
             this.textBox_salida.TabIndex = 9;
             // 
+            // guardarListaOriginalToolStripMenuItem
+            // 
+            this.guardarListaOriginalToolStripMenuItem.Name = "guardarListaOriginalToolStripMenuItem";
+            this.guardarListaOriginalToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.guardarListaOriginalToolStripMenuItem.Text = "Guardar lista original";
+            this.guardarListaOriginalToolStripMenuItem.Click += new System.EventHandler(this.guardarListaOriginalToolStripMenuItem_Click);
+            // 
+            // guardarListaModificadaToolStripMenuItem
+            // 
+            this.guardarListaModificadaToolStripMenuItem.Name = "guardarListaModificadaToolStripMenuItem";
+            this.guardarListaModificadaToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.guardarListaModificadaToolStripMenuItem.Text = "Guardar lista modificada";
+            this.guardarListaModificadaToolStripMenuItem.Click += new System.EventHandler(this.guardarListaModificadaToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -229,6 +247,8 @@ namespace GarciaAgustinEzequiel
         private System.Windows.Forms.ToolStripMenuItem mayúsculaAMinúsculaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem minúsculaAMayúsculaToolStripMenuItem;
         private System.Windows.Forms.TextBox textBox_salida;
+        private System.Windows.Forms.ToolStripMenuItem guardarListaOriginalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem guardarListaModificadaToolStripMenuItem;
     }
 }
 

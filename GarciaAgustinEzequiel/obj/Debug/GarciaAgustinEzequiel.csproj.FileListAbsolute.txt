@@ -8,3 +8,13 @@ C:\Users\Agustin\source\repos\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequ
 C:\Users\Agustin\source\repos\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.csproj.CoreCompileInputs.cache
 C:\Users\Agustin\source\repos\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.exe
 C:\Users\Agustin\source\repos\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.pdb
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\bin\Debug\GarciaAgustinEzequiel.exe.config
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\bin\Debug\GarciaAgustinEzequiel.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\bin\Debug\GarciaAgustinEzequiel.pdb
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.csproj.AssemblyReference.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.Form1.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.Properties.Resources.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.csproj.GenerateResource.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.csproj.CoreCompileInputs.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\GarciaAgustinEzequiel\obj\Debug\GarciaAgustinEzequiel.pdb

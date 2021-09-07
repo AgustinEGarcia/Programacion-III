@@ -15,6 +15,7 @@ namespace GarciaAgustinEzequiel
     {
         List<string> lista = new List<string>();
         string[] arregloLista;
+        string ruta = @"C:\Users\Agustin\Desktop\pruebaTextBox.txt";
 
         public Form1()
         {
@@ -172,33 +173,6 @@ namespace GarciaAgustinEzequiel
 
         }
 
-        private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            string cont_textBox = textBox_entrada.Text;
-
-            string separador = textBox_caracEntrada.Text;
-
-            arregloLista = cont_textBox.Split(separador[0]);
-
-            lista = arregloLista.ToList();
-
-
-            FileInfo f = new FileInfo(Application.StartupPath);
-            FileStream fs = f.Open(FileMode.OpenOrCreate, FileAccess.ReadWrite);
-
-            using(StreamWriter writter = new StreamWriter(fs))
-            {
-                for (int i = 0; i < lista.Count; i++)
-                {
-                    writter.WriteLine(lista[i]);
-
-                }
-            }
-
-            MessageBox.Show("Archivo guardado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
-            fs.Close();
-        }
 
         private void cargarArchivo()
         {
@@ -224,6 +198,46 @@ namespace GarciaAgustinEzequiel
             //cargarArchivo();
         }
 
-        
+        private void guardarListaOriginalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string cont_textBox = textBox_entrada.Text;
+
+            string separador = textBox_caracEntrada.Text;
+
+            arregloLista = cont_textBox.Split(separador[0]);
+
+            lista = arregloLista.ToList();
+
+
+            StreamWriter sw = File.CreateText(ruta);
+
+            sw.Close();
+
+            File.AppendAllLines(ruta, lista);
+
+
+            MessageBox.Show("Archivo guardado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void guardarListaModificadaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string cont_textBox = textBox_salida.Text;
+
+            string separador = textBox_caracSalida.Text;
+
+            arregloLista = cont_textBox.Split(separador[0]);
+
+            lista = arregloLista.ToList();
+
+
+            StreamWriter sw = File.CreateText(ruta);
+
+            sw.Close();
+
+            File.AppendAllLines(ruta, lista);
+
+
+            MessageBox.Show("Archivo guardado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
     }
 }
