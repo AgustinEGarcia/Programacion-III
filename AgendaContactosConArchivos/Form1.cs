@@ -15,6 +15,8 @@ namespace AgendaContactosConArchivos
     {
         public List<Contacto> lista_contactos = new List<Contacto>();
 
+        
+
         string ruta = @"C:\Users\Agustin\Desktop\AgendaContactos.txt";
 
         public Form_Principal()
@@ -24,20 +26,21 @@ namespace AgendaContactosConArchivos
 
         private void cargar_contactos()
         {
-            if (File.Exists(ruta))
-            {
-                StreamReader sr = File.OpenText(ruta);
+            //if (File.Exists(ruta))
+            //{
+            //    StreamReader sr = File.OpenText(ruta);
 
-                while(sr.ReadLine() != null)
-                {
-                    //Lista_contactos.Add(sr.ReadLine());
-                }
+            //    while(sr.ReadLine() != null)
+            //    {
+            //        //Lista_contactos.Add(sr.ReadLine());
+            //    }
 
-                sr.Close();
+            //    sr.Close();
 
-                dataGridView1.DataSource = lista_contactos;
+            //    dataGridView1.DataSource = lista_contactos;
 
-            }
+            //    return;
+            //}
 
             //lista_contactos.Add(new Contacto("Agustin", "Garcia", "354"));
             //lista_contactos.Add(new Contacto("jere", "alvarez", "131"));
@@ -53,8 +56,7 @@ namespace AgendaContactosConArchivos
 
         private void Form_Principal_Load(object sender, EventArgs e)
         {
-            cargar_contactos();
-            actualizar();
+            //cargar_contactos();
         }
 
         private void button_actualizar_Click(object sender, EventArgs e)
@@ -64,13 +66,15 @@ namespace AgendaContactosConArchivos
 
         private void button_agregar_Click(object sender, EventArgs e)
         {
-            
+            AgregarContacto ag = new AgregarContacto();
 
-            AgregarContacto ag = new AgregarContacto(this);
+            ag.Lista_contactos = this.lista_contactos;
 
             ag.ShowDialog();
 
+            this.lista_contactos = ag.Lista_contactos;
 
+            actualizar();
         }
     }
 }

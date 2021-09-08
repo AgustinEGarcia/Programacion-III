@@ -1,0 +1,10 @@
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\bin\Debug\AgendaEnUnSoloForm.exe.config
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\bin\Debug\AgendaEnUnSoloForm.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\bin\Debug\AgendaEnUnSoloForm.pdb
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\obj\Debug\AgendaEnUnSoloForm.csproj.AssemblyReference.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\obj\Debug\AgendaEnUnSoloForm.Form1.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\obj\Debug\AgendaEnUnSoloForm.Properties.Resources.resources
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\obj\Debug\AgendaEnUnSoloForm.csproj.GenerateResource.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\obj\Debug\AgendaEnUnSoloForm.csproj.CoreCompileInputs.cache
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\obj\Debug\AgendaEnUnSoloForm.exe
+C:\Users\Agustin\Documents\GitHub\Programacion-III\AgendaEnUnSoloForm\obj\Debug\AgendaEnUnSoloForm.pdb

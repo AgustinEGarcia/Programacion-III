@@ -8,28 +8,30 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AgendaContactosConArchivos
+namespace AgendaEnUnSoloForm
 {
-    public partial class AgregarContacto : Form
+    public partial class Form1 : Form
     {
-        private List<Contacto> lista_contactos = new List<Contacto>();
-        public List<Contacto> Lista_contactos { get => lista_contactos; set => lista_contactos = value; }
-        
-        public AgregarContacto()
+
+        var source = new BindingSource();
+        List<Contacto> list = new List<MyStruct> { new MyStruct("fff", "b"), new MyStruct("c", "d") };
+        source.DataSource = list;
+        grid.DataSource = source;
+
+        public Form1()
         {
             InitializeComponent();
 
-        }
+            listaBinding = new BindingList<Contacto>(lista_contactos);
+            dataGridView1.DataSource = listaBinding;
 
+        }
 
         private void button_agregar_Click(object sender, EventArgs e)
         {
-
             Contacto c = new Contacto(textBox_nombre.Text, textBox_apellido.Text, textBox_telefono.Text);
 
-            Lista_contactos.Add(c);
-
-            this.Close();
+            lista_contactos.Add(c);
         }
     }
 }
